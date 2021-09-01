@@ -1,4 +1,36 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 16px 200px;
+    background-color: rgb(26, 73, 212);
+    color: #fff;
+}
+
+.secao-footer {
+    margin: 10px 20px 0 20px;
+}
+
+#redes-sociais {
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
 }
