@@ -11,6 +11,7 @@ footer {
     padding: 16px 200px;
     background-color: rgb(26, 73, 212);
     color: #fff;
+    width: 100%;
 }
 
 .secao-footer {
@@ -26,11 +27,32 @@ footer a {
     color: #fff;
 }
 
+footer ul {
+    display: flex;
+    align-items: center;
+    padding: 5px 0 0 0;
+}
+
 footer li {
     list-style: none;
+    padding: 0 4px 0 ;
 }
 
 footer img {
     height: 30px;
     width: 30px;
+}
+
+@media screen and (min-device-width : 300px) and (max-device-width : 450px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .secao-footer {
+        width: 100vw;
+    }
 }
