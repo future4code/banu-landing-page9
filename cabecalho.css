@@ -10,84 +10,58 @@
 .cabecalho {
     background-color: rgb(255, 145, 77);
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
-    height: 10vh;
-    padding: 0 16px 0 50px;
+    height: 50px;
+    padding: 0 15px 0 15px;
     width: 100%;
 }
 
-header section {
-    display: flex;
-    align-items: center;
-    justify-content: start;
+.cabecalho img {
     height: 100%;
-    width: 50vw;
+    margin-left: 8px;
 }
 
-section nav {
+.cabecalho ul {
     display: flex;
-    height: 100%;
-    width: 50vw;
+    list-style: none;
 }
 
-section > img {
-    height: 100%;
-}
-
-nav > div {
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.botoes {
-    display: flex;
-    align-items: center;
-}
-
-.botoes a {
-    padding: 4px;
+.cabecalho ul li a {
+    display: block;
+    margin: 0 16px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 8px;
     border-radius: 5px;
+    position: relative;
 }
 
-.botoes a:hover {
-    background-color: chocolate;
-    transition: 0.4s;
+.cabecalho ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    width: 0;
+    background-color: rgb(26, 73, 212);
+    height: 0.2rem;
+    transition: all 0.2s ease-in-out;
 }
 
-#chamada-para-acao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#botao-login {
-    display: flex;
-    padding: 4px;
-}
-
-#botao-login:hover{
-    background-color: chocolate;
-    transition: 0.4s;
+.cabecalho ul li a:hover::after {
+    width: 50%;
+    left: 25%;
 }
 
 #quero-ser-f4 {
     background-color: rgb(26, 73, 212);
-    padding: 4px 8px;
-    border-radius: 5px;
 }
 
 #quero-ser-f4:hover {
-    background-color: rgb(1, 46, 180);
-    transition: 0.4s;
+    background-color: rgb(4, 45, 168);
+    transition: 0.2s;
 }
-
-div a, nav a {
-    margin: 8px 4px 8px 16px;
-}
-
-header a {
-    text-decoration: none;
-    color: #fff;
+@media screen and (min-device-width : 300px) and (max-device-width : 450px) {
+    
 }

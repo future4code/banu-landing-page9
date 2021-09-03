@@ -47,12 +47,7 @@ footer img {
     footer {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 100vw;
-    }
-
-    .secao-footer {
-        width: 100vw;
+        padding: 0 0 0 16px;
     }
 }
