@@ -17,6 +17,10 @@
     width: 100%;
 }
 
+.menu-mobile {
+    display: none;
+}
+
 .cabecalho img {
     height: 100%;
     margin-left: 8px;
@@ -63,5 +67,36 @@
     transition: 0.2s;
 }
 @media screen and (min-device-width : 300px) and (max-device-width : 450px) {
-    
+    .cabecalho {
+        display: none;
+    }
+
+    .menu-mobile {
+        background-color: rgb(255, 145, 77);
+        display: flex;
+        height: 8vh;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2px;
+    }
+
+    .menu-mobile img {
+        height: 100%;
+    }
+
+    .menu-mobile nav ul {
+        display: flex;
+    }
+
+    .menu-mobile ul li{
+        list-style: none;
+        color: #fff;
+        margin: 0 8px;
+    }
+
+    .menu-mobile a {
+        text-decoration: none;
+        color: #fff;
+    }
 }
