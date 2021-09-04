@@ -12,29 +12,31 @@
     <title> F4Bank </title>
 </head>
 <body>
-    <header>
-        <section>
+    <header class="menu-mobile">
+        <img src="img/logo.png" alt="logo">
+            <nav>
+                <ul class="ul-p">
+                    <li><a href="#"> Sobre nós</a></li>
+                    <li><a href="#"> Conta F4</a></li>
+                    <li><a href="#"> Login </a></li>    
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <header >
+        <section class="cabecalho">
             <img src="img/logo.png" alt="logo">
-            <nav class="botoes" id="botoes-entrais">
-                <div>
-                    <a href="#"> Sobre nós </a>
-                    <img src="img/chevron.png" alt="seta">
-                </div>
-                <div>
-                    <a href="#"> Conta F4 </a>
-                    <img src="img/chevron.png" alt="seta">
-                </div>
-                <div>
-                    <a href="#"> Investimentos </a>
-                    <img src="img/chevron.png" alt="seta">
-                </div>
-                
+            <nav class="botoes" id="botoes-cabecalho">
+                <ul>
+                    
+                    <li><a href="#"> Sobre nós </a></li>
+                    <li><a href="#"> Conta F4 </a></li>
+                    <li><a href="#"> Investimentos </a></li>
+                    <li><a href="#"> Login </a></li>
+                    <li><a href="#" id="quero-ser-f4"> Quero ser F4 </a></li>
+                </ul>
             </nav>
         </section>
-        <nav class="botoes" id="chamada-para-acao">
-            <a href="#" id="quero-ser-f4"> Quero ser F4 </a>
-            <a href="#" id="botao-login"> Login </a>
-        </nav>
     </header>
     <main>
         <section id="quem-somos">
@@ -48,7 +50,7 @@
         </section>
         <section id="conta">
             <div id="texto-cartao">
-              <img src="img/cartao2.png" alt="imagem cartao">
+                <img src="img/cartao2.png" alt="imagem cartao">
             </div> 
             
             <div id="box-cpf">
@@ -76,25 +78,25 @@
         </section>
 
         <section class="secao-footer" id="app">
-            <h3>Baixe nosso apLicatico</h3>
+            <h3>Baixe nosso aplicatico</h3>
             <ul>
-                <li><a href="#"><img src="" alt="app-android"></a></li>
-                <li><a href="#"><img src="" alt="app-ios"></a></li>
+                <li><a href="#"><img id="app-android" src="img/android.png" alt="app-android"></a></li>
+                <li><a href="#"><img id="app-ios" src="img/apple.png" alt="app-ios"></a></li>
             </ul>
         </section>
 
         <section class="secao-footer">
             <h3>Transparência</h3>
-            <p>Política de privacidade</p>
-            <p>Poítica de segurança</p>
+            <p> <a href="#"> Política de privacidade </a></p>
+            <p> <a href="#"> Poítica de segurança</a></p>
         </section>
 
         <section class="secao-footer" id="redes-sociais">
             <h3> Nos siga nas Redes Sociais </h3>
                 <ul>
-                    <li><a href="https://www.facebook.com/"><img class="icone-redes-sociais" src="img/facebook.png" alt="facebook"></a></li>
-                    <li><a href="https://www.instagram.com/"><img class="icone-redes-sociais" src="img/instagram.png" alt="instagram"></a></li>
-                    <li><a href="https: //www.twitter.com/"><img class="icone-redes-sociais" src="img/twitter.png" alt="twitter"></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><img class="icone-redes-sociais" src="img/facebook.png" alt="facebook"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img class="icone-redes-sociais" src="img/instagram.png" alt="instagram"></a></li>
+                    <li><a href="https://twitter.com/login?lang=pt" target="_blank"><img class="icone-redes-sociais" src="img/twitter.png" alt="twitter"></a></li>
                 </ul>
         </section>
     </footer>
