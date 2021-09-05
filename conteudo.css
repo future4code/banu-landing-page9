@@ -17,7 +17,9 @@
 #quem-somos>img{
     width: 70%;
     height: 70%;
+    
 }
+
 
 #texto-introducao{
     display: flex;
@@ -58,6 +60,8 @@
     align-items: center;
 }
 
+
+
 #texto-cartao{
     display: flex;
     flex-direction: column;
@@ -73,6 +77,74 @@
     margin-top: 10px;
     width: 70%;
     height: 70%;
+}
+
+
+h1{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+#projetos>p {
+text-align: center;
+padding-top: 30px;
+padding-left: 100px;
+padding-right: 100px;
+
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 400px;
+}
+
+#container>p{
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.pessoas {
+    max-width: 40%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom:120px;
+}
+
+#projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+ 
+
+}
+
+.danca{
+    max-width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.skate{    
+    max-width: 35%;
+    padding-top: 30px;
 }
 
 #box-cpf{
