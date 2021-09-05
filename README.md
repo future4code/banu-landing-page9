@@ -18,6 +18,8 @@ do banco e links para as redes sociais.
 LINK DO SURGE: young-cow.surge.sh
 
 LANDING PAGE EM MOBILE DEVICE:
+
+
  ![ezgif com-gif-maker](https://user-images.githubusercontent.com/86965625/132144106-5a4a2829-9149-4603-bcc7-b8c566382ff6.gif)
  
  
