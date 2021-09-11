@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* ============== CABEÇALHO ============== */
+
+.cabecalho {
+    background-color: rgb(255, 145, 77);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 15px 0 15px;
+    width: 100%;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.cabecalho img {
+    height: 100%;
+    margin-left: 8px;
+}
+
+.cabecalho ul {
+    display: flex;
+    list-style: none;
+}
+
+.cabecalho ul li a {
+    display: block;
+    margin: 0 16px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.cabecalho ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    width: 0;
+    background-color: rgb(26, 73, 212);
+    height: 0.2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.cabecalho ul li a:hover::after {
+    width: 50%;
+    left: 25%;
+}
+
+#quero-ser-f4 {
+    background-color: rgb(26, 73, 212);
+}
+
+#quero-ser-f4:hover {
+    background-color: rgb(4, 45, 168);
+    transition: 0.2s;
+}
+@media screen and (min-device-width : 300px) and (max-device-width : 450px) {
+    .cabecalho {
+        display: none;
+    }
+
+    .menu-mobile {
+        background-color: rgb(255, 145, 77);
+        display: flex;
+        height: 8vh;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2px;
+    }
+
+    .menu-mobile img {
+        height: 100%;
+    }
+
+    .menu-mobile nav ul {
+        display: flex;
+    }
+
+    .menu-mobile ul li{
+        list-style: none;
+        color: #fff;
+        margin: 0 8px;
+    }
+
+    .menu-mobile a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
